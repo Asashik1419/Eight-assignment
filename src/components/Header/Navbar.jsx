@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
+import git from '../../assets/git.png'
 
 const Navbar = () => {
     const links = <>
@@ -21,8 +22,7 @@ const Navbar = () => {
       </ul>
     </div>
     <div className='flex items-center text-xl font-bold'>
-      <a className="btn btn-ghost text-xl"><img className='w-10' src={logo} alt="" /></a>
-      <h3>HERO.IO</h3>
+      <a className="btn btn-ghost text-xl"><img className='w-10' src={logo} alt="" /> <h3>HERO.IO</h3></a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -31,7 +31,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className='btn bg-gradient-to-r from-[#6A38D9] via-[#7E49E7] to-[#A178FF] text-white mt-4 rounded-sm px-10 py-6'>Contribute</button>
+    <button className='btn bg-gradient-to-r from-[#6A38D9] via-[#7E49E7] to-[#A178FF] text-white mt-4 rounded-sm px-10 py-6'> <img src={git} alt="" /> Contribute</button>
   </div>
 </div>
     );
