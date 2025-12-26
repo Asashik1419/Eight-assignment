@@ -22,7 +22,9 @@ const Navbar = () => {
       </ul>
     </div>
     <div className='flex items-center text-xl font-bold'>
-      <a className="btn btn-ghost text-xl"><img className='w-10' src={logo} alt="" /> <h3>HERO.IO</h3></a>
+      <a className="btn btn-ghost px-1 text-xl">
+        <img className='w-10' src={logo} alt="" /> <h3>HERO.IO</h3>
+      </a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -31,7 +33,10 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className='btn bg-gradient-to-r from-[#6A38D9] via-[#7E49E7] to-[#A178FF] text-white mt-4 rounded-sm px-10 py-6'> <img src={git} alt="" /> Contribute</button>
+    <a href="https://github.com/Asashik1419">
+    <button className='btn bg-gradient-to-r from-[#6A38D9] via-[#7E49E7]
+     to-[#A178FF] text-white mt-4 rounded-sm md:px-5 mb-4 py-6'> <img src={git} alt="" /> Contribute</button>
+    </a>
   </div>
 </div>
     );

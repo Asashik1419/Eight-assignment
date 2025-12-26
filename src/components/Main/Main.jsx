@@ -1,8 +1,7 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense } from 'react';
 import Card from '../../pages/Card/Card';
 
 const Main = ({data}) => {
-    const [main, setMain] = useState([]);
 
     // useEffect(()=>{
     //     fetch("jsonData.json")
