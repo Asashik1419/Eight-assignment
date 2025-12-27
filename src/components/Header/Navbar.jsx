@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import git from '../../assets/git.png'
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-        <li><a>Home</a></li>
-        <li><a>Apps</a></li>
-        <li><a>Installation</a></li>
+        <ul className="flex gap-4">
+          <Link to='/'><li>Home</li></Link>
+          <Link to='/apps'><li>Apps</li></Link>
+          <Link to='/Installation'><li>Installation</li></Link>
+        </ul>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
@@ -22,9 +25,9 @@ const Navbar = () => {
       </ul>
     </div>
     <div className='flex items-center text-xl font-bold'>
-      <a className="btn btn-ghost px-1 text-xl">
+      <Link className="btn btn-ghost px-1 text-xl" to='/'>
         <img className='w-10' src={logo} alt="" /> <h3>HERO.IO</h3>
-      </a>
+      </Link>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">

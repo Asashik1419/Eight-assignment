@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router';
 
 const Footer = () => {
     return (
@@ -11,10 +12,10 @@ const Footer = () => {
     <aside className="grid-flow-col items-center">
     
     <div>
-      <div className='flex justify-center items-center'>
+      <Link to='/'><div className='flex justify-center items-center'>
       <h3><img className='w-10 h-10' src={logo} alt="" /></h3>
       <h3 className='text-xl'>HERO.IO</h3>
-    </div>
+    </div></Link>
       <div>
       
     </div>

@@ -1,0 +1,369 @@
+[
+  {
+    "id": 1,
+    "image": "https://play-lh.googleusercontent.com/2H3vbwvqfqzgcu8HBpavY434sDcMHzXaPzdspHK7qvH2UKKnP07UOLkGmeedlXnYEM0=w240-h480-rw",
+    "title": "Photo Editor Pro",
+    "companyName": "PixelSoft",
+    "description": "Advanced photo editing app with filters and effects.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://play-lh.googleusercontent.com/XMsDEid2xMX_f7ynsJpsfiU6Ov6vBaAybw4DovDs9nn-N59KW4NUzCjTJw4GEgSzoro=w240-h480-rw",
+    "title": "Music Player X",
+    "companyName": "SoundWave",
+    "description": "High quality music player with offline mode.",
+    "size": 30,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 330 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=w240-h480-rw",
+    "title": "Fit Tracker",
+    "companyName": "HealthPlus",
+    "description": "Track workouts, steps, and calories easily.",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://play-lh.googleusercontent.com/z-05jxWSAAtiXk5qWnzi36m4JLczc49f6X4DXbPVgVIGJ2VHdfAL6qqH5BeBsaVNkzk=w240-h480-rw",
+    "title": "Note Keeper",
+    "companyName": "WriteEasy",
+    "description": "Simple and fast note-taking application.",
+    "size": 18,
+    "reviews": 670,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://play-lh.googleusercontent.com/xStBcJPuPBtrPnQi8swLwib0wnIQOZp2J7ckVAj7NHXHcJBAg4IiwRbYxAHd4Cj2TQ=w240-h480-rw",
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "description": "Real-time weather updates and forecasts.",
+    "size": 25,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 390 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+
+  {
+    "id": 6,
+    "image": "https://picsum.photos/240/480?random=6",
+    "title": "Task Manager",
+    "companyName": "Productive Inc",
+    "description": "Manage daily tasks and boost productivity.",
+    "size": 40,
+    "reviews": 890,
+    "ratingAvg": 4.1,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/240/480?random=7",
+    "title": "Language Learner",
+    "companyName": "EduWorld",
+    "description": "Learn new languages with interactive lessons.",
+    "size": 60,
+    "reviews": 2000,
+    "ratingAvg": 4.8,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 370 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/240/480?random=8",
+    "title": "Video Streamer",
+    "companyName": "StreamLab",
+    "description": "Watch and stream videos in HD quality.",
+    "size": 70,
+    "reviews": 1750,
+    "ratingAvg": 4.4,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+
+  {
+    "id": 9,
+    "image": "https://picsum.photos/240/480?random=9",
+    "title": "Expense Tracker",
+    "companyName": "MoneyCare",
+    "description": "Track income and expenses easily.",
+    "size": 35,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 70000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/240/480?random=10",
+    "title": "Recipe Book",
+    "companyName": "Foodies",
+    "description": "Discover and save delicious recipes.",
+    "size": 50,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 82000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 735 }
+    ]
+  },
+
+  {
+    "id": 11,
+    "image": "https://picsum.photos/240/480?random=11",
+    "title": "PDF Reader",
+    "companyName": "DocSoft",
+    "description": "Read and annotate PDF documents.",
+    "size": 28,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/240/480?random=12",
+    "title": "Flashlight Plus",
+    "companyName": "BrightTech",
+    "description": "Powerful flashlight with extra features.",
+    "size": 10,
+    "reviews": 500,
+    "ratingAvg": 3.9,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+
+  {
+    "id": 13,
+    "image": "https://picsum.photos/240/480?random=13",
+    "title": "QR Scanner",
+    "companyName": "ScanIt",
+    "description": "Fast and secure QR & barcode scanner.",
+    "size": 12,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": 45000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 275 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/240/480?random=14",
+    "title": "Calendar Pro",
+    "companyName": "TimeWorks",
+    "description": "Smart calendar with reminders.",
+    "size": 22,
+    "reviews": 650,
+    "ratingAvg": 4.0,
+    "downloads": 27000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+
+  {
+    "id": 15,
+    "image": "https://picsum.photos/240/480?random=15",
+    "title": "News Daily",
+    "companyName": "InfoHub",
+    "description": "Latest news from around the world.",
+    "size": 48,
+    "reviews": 1600,
+    "ratingAvg": 4.4,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 75 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 765 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/240/480?random=16",
+    "title": "Sleep Tracker",
+    "companyName": "HealthPlus",
+    "description": "Monitor sleep quality and patterns.",
+    "size": 42,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": 76000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 855 }
+    ]
+  },
+
+  {
+    "id": 17,
+    "image": "https://picsum.photos/240/480?random=17",
+    "title": "Scanner PDF",
+    "companyName": "DocuScan",
+    "description": "Scan documents into PDF format.",
+    "size": 38,
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 590 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/240/480?random=18",
+    "title": "Wallpaper HD",
+    "companyName": "VisualLab",
+    "description": "High quality wallpapers for your phone.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+
+  {
+    "id": 19,
+    "image": "https://picsum.photos/240/480?random=19",
+    "title": "File Manager",
+    "companyName": "SysTools",
+    "description": "Manage files efficiently on your device.",
+    "size": 33,
+    "reviews": 920,
+    "ratingAvg": 4.2,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 325 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/240/480?random=20",
+    "title": "Calculator Plus",
+    "companyName": "MathSoft",
+    "description": "Advanced calculator with scientific mode.",
+    "size": 15,
+    "reviews": 780,
+    "ratingAvg": 4.1,
+    "downloads": 29000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 205 }
+    ]
+  }
+]

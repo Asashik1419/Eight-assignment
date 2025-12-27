@@ -12,11 +12,11 @@ const Banner = () => {
             <div className='flex justify-center gap-4 mt-10'>
                 <div>
                     
-                    <button className='btn py-3'> <img src={playStore} alt="" />   Google Play</button>
+                    <a href="https://play.google.com/store/games?hl=en"><button className='btn py-3'> <img src={playStore} alt="" />   Google Play</button></a>
                 </div>
                 <div>
                     
-                    <button className='btn py-3'> <img src={appStore} alt="" />  App Store</button>
+                    <a href="https://www.apple.com/app-store/"><button className='btn py-3'> <img src={appStore} alt="" />  App Store</button></a>
                 </div>
             </div>
             <img className='w-[600px] mx-auto mt-10' src={hero} alt="" />
