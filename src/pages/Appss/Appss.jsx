@@ -1,12 +1,14 @@
 import React from 'react';
 import download from '../../assets/icon-downloads.png'
 import ratings from '../../assets/icon-ratings.png'
+import { Link } from 'react-router';
 
 const Appss = ({appssCard}) => {
     console.log(appssCard)
-      const {image,title,downloads,ratingAvg}=appssCard;
+      const {image,title,downloads,ratingAvg,id}=appssCard;
     
         return (
+            <Link to={`/appInfo/${id}`}>
             <div>
                 <div className="card bg-base-100 w-86 mb-4 mx-auto shadow-sm">
       <figure>
@@ -23,6 +25,7 @@ const Appss = ({appssCard}) => {
       </div>
     </div>
             </div>
+            </Link>
         );
 };
 
