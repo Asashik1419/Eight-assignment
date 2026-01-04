@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react';
 import Card from '../../pages/Card/Card';
 import { Link } from 'react-router';
+import Installation from '../../pages/Installation/Installation';
+import Installations from '../../pages/Installations/Installations';
 
 const Main = ({data}) => {
 
@@ -26,6 +28,12 @@ const Main = ({data}) => {
                         {
                         data.map((singleCard)=><Card key={singleCard.id} singleCard={singleCard}></Card>)
                         }
+
+                        {
+  data.map(singleCard =>
+    <Installations key={singleCard.id} c={singleCard} ></Installations>
+  )
+}
                     </div>
                 </Suspense>
             </div>

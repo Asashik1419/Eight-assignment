@@ -3,14 +3,18 @@ import rating from '../../assets/icon-ratings.png'
 import download from '../../assets/icon-downloads.png'
 import review from '../../assets/icon-review.png'
 import { useLoaderData, useParams } from 'react-router';
+import { addToStoredDB } from '../utility/addToDb';
 
 const AppInfo = () => {
     const {id} = useParams();
     const cardid = parseInt(id);
     const data = useLoaderData();
     const singleCard = data.find(card =>card.id == cardid);
-    const {companyName,description,image,title,downloads,ratingAvg,ratings,reviews, size} = singleCard;
-    console.log(singleCard)
+    const {companyName,description,image,title,downloads,ratingAvg,reviews,} = singleCard;
+
+    const handleInstall = id =>{
+        addToStoredDB(id)
+    }
     
     return (
         <div className='max-w-[1300px] mx-auto px-4'>
@@ -56,7 +60,7 @@ const AppInfo = () => {
                     </div>
 
                     <div className='mt-8 flex justify-center md:justify-start'>
-                        <button className='btn bg-[#00D390] text-white text-lg px-6'>
+                        <button onClick={()=>handleInstall(id)} className='btn bg-[#00D390] text-white text-lg px-6'>
                             Install Now (291 MB)
                         </button>
                     </div>
